@@ -81,7 +81,7 @@ export function Hero() {
           <div className="hero-portrait-wrapper max-w-sm">
             <div className="hero-portrait">
               <img
-                src="/my image.jpeg"
+                src="my image.jpeg"
                 alt="Portrait illustration"
                 className="hero-portrait-image"
               />
