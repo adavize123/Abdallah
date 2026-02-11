@@ -12,5 +12,5 @@ export const siteConfig = {
   location: "Nigeria",
   email: "adavizeabdullahi@gmail.com",
   availability: "Open to opportunities, scholarships and collaborations.",
-  resumeUrl: "/cv/Ismaila_Adavize_CV.pdf",
+  resumeUrl: "cv/Ismaila_Adavize_CV.pdf",
 };
