@@ -32,10 +32,10 @@ export function Projects() {
           {projects.map((project) => (
             <Card key={project.id} className="space-y-4">
               <div className="space-y-2">
-                <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-black dark:text-white">
                   {project.title}
                 </h3>
-                <p className="text-sm leading-7 text-slate-600 dark:text-slate-300">
+                <p className="text-sm leading-7 text-black dark:text-white">
                   {project.description}
                 </p>
               </div>
@@ -44,7 +44,7 @@ export function Projects() {
                   <Badge key={tech}>{tech}</Badge>
                 ))}
               </div>
-              <div className="flex items-center gap-4 text-sm font-semibold text-slate-600 dark:text-slate-300">
+              <div className="flex items-center gap-4 text-sm font-semibold text-black dark:text-white">
                 <a
                   href={project.githubUrl}
                   target="_blank"

@@ -30,10 +30,10 @@ export function Hero() {
               <p className="text-sm font-semibold uppercase tracking-[0.35em] text-violet-500">
                 {siteConfig.brand}
               </p>
-              <h1 className="text-4xl font-semibold leading-tight text-slate-900 dark:text-white sm:text-5xl">
+              <h1 className="text-4xl font-semibold leading-tight text-black dark:text-white sm:text-5xl">
                 {siteConfig.name}
               </h1>
-              <p className="text-lg leading-8 text-slate-600 dark:text-slate-300">
+              <p className="text-lg leading-8 text-black dark:text-white">
                 {siteConfig.bio}
               </p>
             </div>
@@ -53,7 +53,7 @@ export function Hero() {
                 <Button variant="secondary">Contact Me</Button>
               </a>
             </div>
-            <div className="flex flex-wrap items-center gap-4 text-sm text-slate-500 dark:text-slate-400">
+            <div className="flex flex-wrap items-center gap-4 text-sm text-black dark:text-white">
               <div className="flex items-center gap-2">
                 <Mail size={16} />
                 <span>{siteConfig.email}</span>

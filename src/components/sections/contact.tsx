@@ -96,10 +96,10 @@ export function Contact() {
           </form>
           <div className="space-y-6">
             <div className="glass-card rounded-3xl p-6">
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-black dark:text-white">
                 Reach out directly
               </h3>
-              <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
+              <p className="mt-3 text-sm text-black dark:text-white">
                 Prefer email? Contact {siteConfig.name} at
               </p>
               <p className="mt-2 text-sm font-semibold text-violet-500">
@@ -107,10 +107,10 @@ export function Contact() {
               </p>
             </div>
             <div className="glass-card rounded-3xl p-6">
-              <h3 className="text-lg font-semibold text-slate-900 dark:text-white">
+              <h3 className="text-lg font-semibold text-black dark:text-white">
                 Availability
               </h3>
-              <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">
+              <p className="mt-3 text-sm text-black dark:text-white">
                 {siteConfig.availability}
               </p>
             </div>

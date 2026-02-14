@@ -2,7 +2,7 @@ export const experience = [
   {
     title: "B.Sc. Computer Science",
     organization: "Federal University Lokoja, Kogi State",
-    period: "2019 - 2024",
+    period: "2020 - 2024",
     highlights: [
       "Graduated with strong focus on data science, artificial intelligence, and software development.",
       "Completed projects in computer vision, including a high-accuracy Tuberculosis Diagnostic System and Maize Plant Disease Detection System.",
@@ -11,7 +11,7 @@ export const experience = [
   {
     title: "National Diploma (ND)",
     organization: "Federal Polytechnic Nasarawa",
-    period: "2016 - 2018",
+    period: "2017 - 2019",
     highlights: [
       "Built a solid foundation in computer science fundamentals and practical computing.",
       "Gained early exposure to programming, systems analysis, and IT operations.",
@@ -30,7 +30,7 @@ export const experience = [
   {
     title: "Math Preceptor/ Business Development Executive",
     organization: "Zinchi International",
-    period: "2023 - 2024",
+    period: "2023 - present",
     highlights: [
       "Analyzed student performance data to track academic progress and learning outcomes.",
       "Prepared weekly performance reports and insights for management decision-making.",
@@ -40,7 +40,7 @@ export const experience = [
   {
     title: "Data Science & AI Researcher",
     organization: "Academic & Independent Projects",
-    period: "2022 - Present",
+    period: "2023 - Present",
     highlights: [
       "Developed a Tuberculosis Diagnostic System using CNNs with 98% accuracy on chest X-ray images.",
       "Built a Maize Plant Disease Detection System using computer vision and deep learning.",
@@ -50,7 +50,7 @@ export const experience = [
   {
     title: "Front-End Developer",
     organization: "Udacity",
-    period: "2021 - Present",
+    period: "2021 - 2022",
     highlights: [
       "Developed responsive web interfaces using HTML, CSS, JavaScript, React, PHP, and MySQL.",
       "Integrated backend services with REST APIs and database systems.",
@@ -61,7 +61,7 @@ export const experience = [
   {
     title: "Front-End Development Intern/Data Analyst",
     organization: "BIME",
-    period: "2023 - 2024",
+    period: "2023 - 2025",
     highlights: [
       "Provided academic support and teaching assistance in technology-related subjects.",
       "Mentored students in computing fundamentals and exam preparation.",

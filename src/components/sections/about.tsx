@@ -23,10 +23,10 @@ export function About() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
-          className="grid gap-6 rounded-3xl border border-slate-200/70 bg-white/80 p-8 text-sm text-slate-600 shadow-sm dark:border-slate-800 dark:bg-slate-900/60 dark:text-slate-300 md:grid-cols-3"
+          className="grid gap-6 rounded-3xl border border-slate-200/70 p-8 text-sm text-black shadow-sm dark:border-slate-800 dark:text-white md:grid-cols-3"
         >
           <div>
-            <p className="text-base font-semibold text-slate-900 dark:text-white">
+            <p className="text-base font-semibold text-black dark:text-white">
               Background
             </p>
             <p className="mt-3 leading-7">
@@ -35,7 +35,7 @@ export function About() {
             </p>
           </div>
           <div>
-            <p className="text-base font-semibold text-slate-900 dark:text-white">
+            <p className="text-base font-semibold text-black dark:text-white">
               What I do
             </p>
             <p className="mt-3 leading-7">
@@ -44,7 +44,7 @@ export function About() {
             </p>
           </div>
           <div>
-            <p className="text-base font-semibold text-slate-900 dark:text-white">
+            <p className="text-base font-semibold text-black dark:text-white">
               Career focus
             </p>
             <p className="mt-3 leading-7">
