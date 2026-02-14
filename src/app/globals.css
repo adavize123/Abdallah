@@ -16,11 +16,11 @@ html {
 
 html.dark {
   --background: #0b0f19;
-  --foreground: #e5e7eb;
-  --muted: #94a3b8;
+  --foreground: #ffffff;
+  --muted: #e5e7eb;
   --accent: #a78bfa;
   --border: #1f2937;
-  --bg-overlay: color-mix(in oklab, #0b0f19 70%, transparent);
+  --bg-overlay: color-mix(in oklab, #0b0f19 85%, transparent);
 }
 
 @theme inline {
@@ -49,6 +49,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   transition: background-color 0.3s ease;
+}
+
+html.dark body {
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(11, 15, 25, 0.88),
+      rgba(11, 15, 25, 0.92)
+    ),
+    url("/backgrounds/blue-mesh.svg"),
+    radial-gradient(1200px circle at 10% -10%, color-mix(in oklab, var(--accent) 22%, transparent), transparent 55%),
+    radial-gradient(900px circle at 90% 10%, color-mix(in oklab, var(--accent) 16%, transparent), transparent 50%),
+    radial-gradient(700px circle at 50% 120%, color-mix(in oklab, var(--accent) 18%, transparent), transparent 60%),
+    linear-gradient(180deg, var(--bg-overlay), var(--background));
+  background-blend-mode: normal, multiply, normal, normal, normal, normal;
 }
 
 body::before {
@@ -83,6 +98,10 @@ body::after {
 
 html:not(.dark) body::after {
   opacity: 0.22;
+}
+
+html.dark .text-black {
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
